@@ -1,0 +1,29 @@
+{
+  "name": "@leelaing/create-express-api",
+  "version": "1.0.0",
+  "description": "A CLI for creating a custom Express server API's",
+  "main": "src/index.js",
+  "bin": {
+    "@leelaing/create-express-api": "bin/create-express-api",
+    "create-express-api": "bin/create-express-api"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "cli",
+    "server",
+    "create-express-api"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lee Charles Laing <lcharleslaing@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "link": "^0.1.5"
+  }
+}
